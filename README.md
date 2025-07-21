@@ -56,9 +56,6 @@ This is a simple e-commerce web application built with React and Vite. Users can
 ## Redirection & Payment Simulation
 
 - When users click **Proceed to Payment** on the cart page, they are redirected to the `/checkout` route.
-- On the checkout page, users can simulate a payment. Upon "payment," the app randomly redirects to either a **Success** or **Failure** page.
+- On the checkout page, users can simulate a payment. Upon "payment," the app redirects to either a **Success** or **Failure** page based on payment status.
 - This simulates a real-world payment gateway experience, allowing users to see both successful and failed payment flows.
 
----
-
-Feel free to customize this README with your own
