@@ -39,13 +39,19 @@ This is a simple e-commerce web application built with React and Vite. Users can
 ![Home Page](src/ScreenShots/homepage.png)
 
 ### Product Listing
-![Product Listing](./screenshots/products.png)
+![Product Listing](src/ScreenShots/productsPage.png)
 
 ### Cart Page
-![Cart Page](./screenshots/cart.png)
+![Cart Page](src/ScreenShots/Cart.png)
 
-### Checkout/Payment Simulation
-![Checkout Page](./screenshots/checkout.png)
+### Checkout Simulation
+![Checkout Page](src/ScreenShots/Checkout.png)
+
+### Payment Success
+![Success Page](src/ScreenShots/paymentSuccess.png)
+
+### Payment Failure
+![Failure Page](src/ScreenShots/paymentFailure.png)
 
 ## Redirection & Payment Simulation
 
