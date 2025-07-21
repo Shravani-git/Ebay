@@ -36,7 +36,7 @@ This is a simple e-commerce web application built with React and Vite. Users can
 ## Screenshots
 
 ### Home Page
-![Home Page](./screenshots/homepage.png)
+![Home Page](src/ScreenShots/homepage.png)
 
 ### Product Listing
 ![Product Listing](./screenshots/products.png)
