@@ -1,12 +1,58 @@
-# React + Vite
+# E-commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This is a simple e-commerce web application built with React and Vite. Users can browse products, add them to a cart, and simulate a checkout/payment process. The app demonstrates routing, state management, and basic UI/UX for an online store.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Product listing with images, prices, and ratings
+- Add to cart functionality
+- Cart summary and order total calculation
+- Checkout and payment simulation with success/failure redirection
+- Responsive design with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser:**
+   Visit [http://localhost:5173](http://localhost:5173) to view the app.
+
+## Screenshots
+
+### Home Page
+![Home Page](./screenshots/homepage.png)
+
+### Product Listing
+![Product Listing](./screenshots/products.png)
+
+### Cart Page
+![Cart Page](./screenshots/cart.png)
+
+### Checkout/Payment Simulation
+![Checkout Page](./screenshots/checkout.png)
+
+## Redirection & Payment Simulation
+
+- When users click **Proceed to Payment** on the cart page, they are redirected to the `/checkout` route.
+- On the checkout page, users can simulate a payment. Upon "payment," the app randomly redirects to either a **Success** or **Failure** page.
+- This simulates a real-world payment gateway experience, allowing users to see both successful and failed payment flows.
+
+---
+
+Feel free to customize this README with your own
